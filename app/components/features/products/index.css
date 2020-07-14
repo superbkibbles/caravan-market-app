@@ -1,0 +1,17 @@
+.page {
+  animation: fadeInPage 1s ease-in-out;
+}
+
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hoveredItem:hover {
+  color: #f96332;
+  cursor: pointer;
+}

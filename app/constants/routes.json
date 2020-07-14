@@ -1,0 +1,21 @@
+{
+  "HOME": "/",
+  "STORE_LOGIN": "/login",
+  "USERS_LOGIN": "/login/users",
+  "USER_LOGIN": "/login/users/:id",
+  "DASHBOARD": "/logged/dashboard",
+  "PRODUCTS": "/logged/products",
+  "PRODUCT_DELETE": "/logged/products/delete/:id",
+  "PRODUCT_EDIT": "/logged/products/edit/:id",
+  "PRODUCT_NEW": "/logged/products/new",
+  "REPORTS": "/logged/reports",
+  "REPORTS_BUYING": "/logged/reports/buying",
+  "REPORT_BUYING": "/logged/reports/buying/:invoice/:total",
+  "REPORTS_SELLING": "/logged/reports/selling",
+  "REPORT_SELLING": "/logged/reports/selling/:invoice/:total",
+  "REPORTS_NOT_PAID": "/logged/reports/notpaid",
+  "REPORT_NOT_PAID": "/logged/reports/notpaid/:invoice",
+  "STORES":  "/logged/stores",
+  "SELLER_V2": "/seller/v2",
+  "SELLER_REPORT": "/seller/report"
+}

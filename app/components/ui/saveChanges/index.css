@@ -1,0 +1,27 @@
+.fixedPosition {
+  position: fixed;
+  right: .3%;
+  top: 70%;
+  z-index: 10;
+}
+
+.saveChanges {
+  display: inline-block;
+  background-color: #f96332;
+  padding: 9px 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow .2s, transform .2s, opacity .2s;
+}
+
+.saveChanges:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.saveChanges:active {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+}
+
+

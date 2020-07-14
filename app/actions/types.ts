@@ -1,0 +1,28 @@
+export const AUTH_USER = 'AUTH_USER';
+export const AUTH_STORE = 'AUTH_STORE';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGOUT_USER = 'LOGOUT_USER';
+export const LOGOUT_STORE = 'LOGOUT_STORE';
+
+export const OPEN_SLIDE_BAR = 'OPEN_SLIDE_BAR';
+export const CLOSE_SLIDE_BAR = 'CLOSE_SLIDE_BAR';
+
+export const GET_USERS = 'GET_USERS';
+
+export const GET_PRODUCTS = 'GET_PRODUCTS';
+export const GET_ALL_PRODUCTS = 'GET_ALL_PRODUCTS';
+export const GET_PRODUCT = 'GET_PRODUCT';
+export const CREATE_PRODUCTS = 'CREATE_PRODUCTS';
+export const DELETE_PRODUCT = 'DELETE_PRODUCT';
+export const EDIT_PRODUCT = 'EDIT_PRODUCT';
+
+export const CURRENT_PAGE = 'CURRENT_PAGE';
+export const GET_PAGINATION = 'GET_PAGINATION';
+
+export const GET_BUY_INVOICE = 'GET_BUY_INVOICE';
+export const GET_ONE_BUY_INVOICE = 'GET_ONE_BUY_INVOICE';
+export const GET_SELL_INVOICE = 'GET_SELL_INVOICE';
+export const GET_ONE_SELL_INVOICE = 'GET_ONE_SELL_INVOICE';
+
+export const GET_PURCHASED_REPORTS = 'GET_PURCHASED_REPORTS';
+export const GET_SOLD_REPORTS = "GET_SOLD_REPORTS";

@@ -1,0 +1,67 @@
+.stores {
+  position: relative;
+  margin-top: 40px;
+  width: 320px;
+  height: 440px;
+  text-align: center;
+  padding: 100px 0;
+  animation: fadeIn 0.4s;
+  cursor: pointer;
+  transition:  all.2s;
+
+  background: linear-gradient(180deg, #8C3F33 0%, rgba(194, 153, 147, 0.530544) 72.32%, rgba(255, 255, 255, 0) 100%), #5E413A;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px; }
+
+.stores:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.stores:active {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+}
+
+.storesContent {
+  display: inline-block;
+  height: 41px;
+  color: #fff;
+  text-align: center;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px; }
+
+.storesCoordinates {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #E0E0E0; }
+
+.storesFooter {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;;
+  font-size: 18px;
+  padding: 0 50px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #fff; }
+
+.storesFooterCity {
+  text-transform: uppercase;
+  color: #F2C94C; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

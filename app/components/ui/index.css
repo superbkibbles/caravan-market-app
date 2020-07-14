@@ -1,0 +1,48 @@
+.modalFadein {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0%{
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modalFadeout {
+  animation: fadeOut 0.5s ease-in-out;
+}
+
+.fadeOut {
+  transition: opacity .5s ease-in-out;
+}
+
+@keyframes fadeOut {
+  0%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100%{
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+}
+
+.backgroundFade {
+  animation: opacityIn .5s;
+}
+
+@keyframes opacityIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

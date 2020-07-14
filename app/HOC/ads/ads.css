@@ -1,0 +1,35 @@
+.positionRightFixed {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  width: 20%;
+  height: 75%;
+  background-color: rgba(12, 38, 70, 0.9);
+  z-index: 2000;
+  transform: translateY(-50%);
+  /*transition: 0.5s ease;*/
+}
+
+.fadeOutAd {
+  animation: openAd 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.fadeinAd {
+  animation: closeAd 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes openAd {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes closeAd {
+  to {
+    width: 0;
+  }
+}

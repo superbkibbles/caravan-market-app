@@ -1,0 +1,60 @@
+.burgerToggle{
+  margin-left: 3.3%;
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 24px;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.burgerToggleBar{
+  background: white;
+  height: 3px;
+  transition: all 0.2s ease-in-out;
+}
+
+.burgerToggleBar:nth-of-type(2){
+  width: calc(100% - 20%)
+}
+
+.burgerToggle:hover .burgerToggleBar{
+  width: 100%
+}
+
+
+/*close icon*/
+
+.close{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 24px;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.closeLine{
+  background: white;
+  height: 3px;
+  transition: all 0.2s ease-in-out;
+}
+
+.closeLine:nth-of-type(1){
+  position: relative;
+  top: -4px;
+  transform: rotate(45deg)
+}
+
+
+.closeLine:nth-of-type(2){
+  position: relative;
+  top: -11px;
+  transform: rotate(-45deg);
+}
+
+.close:hover .closeLine{
+  transform: scalex(1.4)
+}
+

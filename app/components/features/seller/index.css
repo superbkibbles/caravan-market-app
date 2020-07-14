@@ -1,0 +1,15 @@
+.select {
+  background-color: #a9a2a273;
+  color: grey;
+  height: 40px;
+  text-decoration: none;
+  border: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 80px;
+  padding-left: 10px;
+}
+
+.select:active {
+  border: 1px solid black
+}

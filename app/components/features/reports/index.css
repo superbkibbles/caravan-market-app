@@ -1,0 +1,56 @@
+.firstReport {
+  box-shadow: 0 5px 25px 0 rgba(112, 230, 220, 0.4) !important;
+  border-radius: 10px !important;
+  transition: all 0.2s ease-in-out;
+}
+.firstReport:hover {
+  box-shadow: 0 5px 25px 0 rgba(112, 230, 220, 1) !important;
+  transform: translateY(-3px);
+}
+.firstReport:active {
+  box-shadow: 0 5px 25px 0 rgba(112, 230, 220, 0.3) !important;
+  transform: translateY(-1px);
+}
+
+.secondReport {
+  box-shadow: 0 5px 25px 5px rgba(0, 169, 206, 0.4) !important;
+  border-radius: 10px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.secondReport:hover {
+  box-shadow: 0 5px 25px 0 rgba(0, 169, 206, 1) !important;
+  transform: translateY(-3px);
+}
+.secondReport:active {
+  box-shadow: 0 5px 25px 5px rgba(0, 169, 206, 0.3) !important;
+  transform: translateY(-1px);
+}
+
+.thirdReport {
+  box-shadow: 0 5px 25px 5px rgba(100, 35, 116, 0.4) !important;
+  border-radius: 10px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.thirdReport:hover {
+  box-shadow: 0 5px 25px 0 rgba(100, 35, 116, 1) !important;
+  transform: translateY(-3px);
+}
+.thirdReport:active {
+  box-shadow: 0 5px 25px 5px rgba(100, 35, 116, 0.3) !important;
+  transform: translateY(-1px);
+}
+
+.allReports {
+  animation: fadeInPage 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

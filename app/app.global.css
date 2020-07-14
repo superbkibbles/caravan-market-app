@@ -1,0 +1,13 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+/*@import '~@fortawesome/fontawesome-free/css/all.css';*/
+@import '@nowUi2/css/bootstrap.min.css';
+@import '@nowUi2/css/all.css';
+@import '@nowUi/css/now-ui-kit.css';
+@import '@nowUi2/css/now-ui-dashboard.css';
+
+html {
+  scroll-behavior: smooth;
+}
