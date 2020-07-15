@@ -1,7 +1,7 @@
 {
   "name": "superbkibbles",
-  "productName": "caravan-market",
-  "version": "2.3.0",
+  "productName": "caravan-market-app",
+  "version": "1.2.0",
   "description": "caravan-market app is for stores to manage their income",
   "scripts": {
     "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
@@ -53,7 +53,7 @@
     ]
   },
   "build": {
-    "productName": "CaravanCommerce",
+    "productName": "caravan-market-app",
     "appId": "org.develar.ElectronReact",
     "files": [
       "dist/",
