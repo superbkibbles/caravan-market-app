@@ -335,7 +335,9 @@ class ProductsList extends Component<Props, State> {
               </button>
               <div className={dropMenue2} style={{
                 backgroundColor: "rgb(21, 33, 110)",
-                color: "rgb(21, 33, 110)",
+                // color: "rgb(21, 33, 110)",
+              //  TODO DELETE HERE
+                color: "red"
               }}>
                 <div style={{ color: "#fff" }}>
                   <a className="dropdown-item" style={{cursor: "pointer"}}
